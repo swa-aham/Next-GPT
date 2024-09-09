@@ -7,9 +7,9 @@ import { redirect } from "next/navigation";
 import { ThemeToggleButton } from "@/components/ui/ThemeToggleButton";
 
 export default function Home() {
-  const { userId } = auth();
+  // const { userId } = auth();
 
-  if (userId) redirect("/messages");
+  // if (userId) redirect("/messages");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
